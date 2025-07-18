@@ -14,7 +14,7 @@ if not api_key:
         api_key = st.secrets["openai_api_key"]
     except Exception:
         api_key = ""
-openai.api_key = "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"  # <-- put your real OpenAI API key here
+openai.api_key = ""  # <-- put your real OpenAI API key here
 
 # Constants
 EMBEDDING_MODEL = "text-embedding-3-large"
